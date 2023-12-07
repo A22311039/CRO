@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <!-- Otros elementos del layout que ya existan -->
+
+    <EditText
+        android:id="@+id/editTaskName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:hint="Task Name"
+        android:inputType="text"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/editTaskCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTaskName"
+        android:layout_margin="16dp"
+        android:hint="Task Category"
+        android:textColorHint="@color/white"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTaskInterval"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTaskCategory"
+        android:layout_margin="16dp"
+        android:hint="Task Interval"
+        android:textColorHint="@color/white"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTaskWin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTaskInterval"
+        android:layout_margin="16dp"
+        android:hint="Url Win"
+        android:textColorHint="@color/white"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTaskImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTaskWin"
+        android:layout_margin="16dp"
+        android:hint="Url Image"
+        android:textColorHint="@color/white"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btnAddTask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTaskImage"
+        android:layout_margin="16dp"
+        android:text="Add Task" />
+
+    <!-- Otros elementos del layout que ya existan -->
+
+</RelativeLayout>

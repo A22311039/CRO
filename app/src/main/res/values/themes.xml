@@ -1,0 +1,49 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CRO" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/skyblue</item>
+    </style>
+
+    <style name="Theme.CRO" parent="Base.Theme.CRO" />
+
+    <style name="navigateButton" parent="Theme.CRO">
+        <item name="backgroundTint">@color/white</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="EditTextStyle">
+        <item name="android:background">#000000</item> <!-- Fondo negro -->
+        <item name="android:textColor">#FFFFFF</item> <!-- Texto blanco -->
+        <!-- Otros atributos de estilo que desees agregar -->
+    </style>
+
+    <style name="listButton" parent="Theme.CRO">
+        <item name="backgroundTint">@color/black</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="cardTextTitle" parent="Theme.CRO">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="cardText" parent="Theme.CRO">
+        <item name="android:textColor">@color/darkgrey</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="cardTextSmall" parent="Theme.CRO">
+        <item name="android:textColor">@color/grey</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="label" parent="Theme.CRO">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>
